@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website HTML CSS|Codes</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+  #lets-chat {
+    display: inline-block;
+    background-color: #4070f4; /* WhatsApp green */
+    color: white; /* Text color */
+    padding: 12px 25px; /* Button size */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  #lets-chat:hover {
+    background-color: #373f89; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+</style>
+
+
+
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio..com</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.facebook.com/santosh.sivan.3979"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/Santodstrawhat?s=09"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/santosh-sivan-ab-872115284" ><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Santosh Sivan</div>
+        <div class="text-three">Full Stack Developer </div>
+        <div class="text-four">From Chennai</div>
+      </div>
+      <div class="button"><button > <a href="mailto:vijibabusiva2000@gmail.com?subject=Inquiry&body=Hello%20there!">Hire Me</a></button>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="./Images/Image.jpg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">Designing Is My Passion</div>
+          <p>
+            I'm Santosh sivan , a proactive full-stack developer passionate about creating dynamic web experiences. From frontend to backend, I thrive on solving complex problems with clean, efficient code. My expertise spans React, Next.js, and Node.js, and I'm always eager to learn more.
+
+When I'm not coding, I'm exploring new ideas and staying curious. Life's about balance, and I love embracing every part of it.
+
+I believe in waking up each day eager to make a difference!
+          </p>
+          <div class="button">
+         <button onclick="window.open('./Images/Santosh%20Resume.pdf', '_blank')">Download CV</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <p>My skills in HTML, CSS, JavaScript, and Java reflect a strong foundation in both front-end and back-end development. With HTML and CSS, I create clean, responsive, and visually appealing web interfaces. JavaScript brings interactivity and dynamic behavior to my projects, enhancing user experience. On the backend, my knowledge of Java allows me to build robust, efficient, and scalable applications. These technologies together empower me to develop full-stack solutions that are both functional and user-friendly</p>
+          <div class="experience">
+            <div class="num">10</div>
+            <div class="exp">
+              Months Of <br />
+              Course Experience
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">HTML</div>
+            <img src="./Images/html.png" alt="" srcset="" width="100px" height="100px"/>
+            
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <img src="./Images/css.png" alt="" srcset="" width="100px" height="100px"/>
+          </div>
+          <div class="box">
+            <div class="topic">JavScript</div>
+            <img src="./Images/js7.webp" alt="" srcset="" width="140px" height="140px"/>
+          </div>
+          <div class="box">
+            <div class="topic">JAVA</div>
+            <img src="./Images/java3.webp" alt="" srcset="" width="140px" height="140px"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="topic"> Full-Stack Java Development</div>
+          <p> Experienced in developing robust and scalable applications using Java, Spring Boot, and microservices architecture. </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="topic">Full-Stack JavaScript Development</div>
+          <p>Proficient in building interactive front-end interfaces with React and backend services with Node.js.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic">Front-End Design and Implementation</div>
+          <p>Skilled in crafting responsive and user-friendly web applications with modern UI frameworks and libraries.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <div class="topic"> Back-End Development and APIs</div>
+          <p>Expertise in designing RESTful APIs, handling server-side logic, and database integrations efficiently.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="topic">Database Management (SQL/NoSQL)</div>
+          <p>Well-versed in relational and NoSQL databases, optimizing queries and ensuring data consistency.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="topic"> Application Scalability and Optimization</div>
+          <p>Focused on performance tuning, load balancing, and cloud-native deployments for high-traffic applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Have Any Project?</div>
+        <p> Let's build something amazing together! Whether it's a website, an application, or a new idea you're bringing to life, I'm here to help. From planning to execution, let's collaborate and create something impactful. Drop me a message, and let's get started!</p>
+       <!-- HTML -->
+<div id="button3">
+  <a href="https://wa.me/6374617133?text=Hello,+I%27m+interested+in+your+portfolio" id="lets-chat">Let's Chat</a>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+  <div class="text">
+    <span>
+      Created By Santosh Sivan | &copy; 2025 All rights reserved | Mail me at 
+      [ vijibabusiva2000@gmail.com ]
+    </span>
+    <a href="mailto:vijibabusiva2000@gmail.com" 
+       style="text-decoration: none; color: #b4561b;">
+    
+    </a>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
